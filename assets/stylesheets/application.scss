@@ -1,5 +1,6 @@
 body {
   font-family: Helvetica;
+  // background-image: url("https://images.unsplash.com/photo-1511804472014-fa7b871cd6a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
 }
 
 #root {
@@ -10,5 +11,9 @@ body {
 }
 
 .selected {
-  color: red;
+  color: #ffb3b3;
+}
+
+.list{
+  list-style-type: none;
 }

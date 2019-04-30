@@ -29,9 +29,9 @@ module.exports = (env) => {
             historyApiFallback: true
         },
         output: {
-            publicPath: '/',
             path: path.resolve(__dirname, 'build'),
-            filename: 'bundle.js'
+            filename: 'bundle.js',
+            publicPath: fileEnv.HOME_URL
         },
         plugins: [
             new HtmlWebpackPlugin({
